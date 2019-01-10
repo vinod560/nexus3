@@ -189,4 +189,16 @@
 				<version>2.0-beta-1</version> </plugin>-->
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <name>Releases</name>
+      <url>http://localhost:8081/nexus/content/repositories/12345/</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshot</id>
+      <name>Snapshot</name>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
